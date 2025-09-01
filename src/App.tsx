@@ -23,7 +23,7 @@ import EventsPage from "./pages/students/Events";
 import Emergency from "./pages/students/Emergency";
 import Attractions from "./pages/students/UAEAttractions";
 import Academics from "./pages/students/Academics";
-
+import ProviderInterestForm from "./pages/ProvidersInterestForm";
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -53,6 +53,7 @@ export default function App() {
             <Route path="/blog/great-cv" element={<GreatCV />} />
             <Route path ="/providers#subscription-plans" element={<Providers />} />
             <Route path="/students/attractions" element={<Attractions />} />
+            <Route path="/pages/ProviderInterestForm" element={<ProviderInterestForm />} />
           </Routes>
         </main>
         <Footer />

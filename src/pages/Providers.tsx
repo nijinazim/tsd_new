@@ -172,12 +172,13 @@ const plans = [
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 bg-white rounded-xl shadow-sm overflow-hidden">
     {/* Service 1 */}
-    <div className="p-6 border border-gray-100">
+    <div className="p-5 border border-gray-100">
       <div className="flex items-center gap-3 mb-2">
         <span className="text-3xl">📸</span>
-        <h3 className="font-semibold">Photography & Content</h3>
+        <h3 className="font-semibold text-xme text-left">Photography & Content</h3>
       </div>
-      <p className="text-gray-600 text-me">AED 300 / listing</p>
+      <p className="text-gray-800 text-me">AED 300 / listing</p>
+      <p className="text-indigo-700 text-sm italic">Professional photos, videos and descriptions that make your listing stand out and attract more students. </p>
     </div>
 
     {/* Service 2 */}
@@ -186,7 +187,8 @@ const plans = [
         <span className="text-3xl">✨</span>
         <h3 className="font-semibold">Highlight in Search</h3>
       </div>
-      <p className="text-gray-600 text-me">AED 100 / 7 days</p>
+      <p className="text-gray-800 text-me">AED 100 / 7 days</p>
+      <p className="text-indigo-700 text-sm italic">Get priority visibility in student search results to boost clicks and inquiries</p>
     </div>
 
     {/* Service 3 */}
@@ -195,8 +197,9 @@ const plans = [
         <span className="text-3xl">🏠</span>
         <h3 className="font-semibold">Homepage Banners</h3>
       </div>
-      <p className="text-gray-600 text-me">AED 200 / week</p>
-      <p className="text-gray-500 text-sm">(AED 700 / month)</p>
+      <p className="text-gray-800 text-me">AED 200 / week</p>
+      <p className="text-gray-700 text-sm">(AED 700 / month)</p>
+      <p className="text-indigo-700 text-sm italic">Feature your brand front and centre on the TSD homepage for maximum exposure</p>
     </div>
 
     {/* Service 4 */}
@@ -205,8 +208,9 @@ const plans = [
         <span className="text-3xl">📢</span>
         <h3 className="font-semibold">Social Media Feature</h3>
       </div>
-      <p className="text-gray-600 text-me">AED 499 for 3 posts</p>
-      <p className="text-gray-500 text-sm">(Instagram & LinkedIn)</p>
+      <p className="text-gray-800 text-me">AED 499 for 3 posts</p>
+      <p className="text-gray-700 text-sm">(Instagram & LinkedIn)</p>
+      <p className="text-indigo-700 text-sm italic">Reach thousands of students with a spotlight, co-branded post on our active social media channels.</p>
     </div>
   </div>
 </div>
@@ -270,7 +274,7 @@ const plans = [
 
       {/* Provider Form (Primary CTA) */}
       <Link
-  to="#"
+  to="/pages/ProviderInterestForm"
   className="px-6 py-3 bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition transform hover:scale-105"
 >
   📝 Provider Interest Form

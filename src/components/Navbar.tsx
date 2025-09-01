@@ -24,6 +24,7 @@ export default function Navbar() {
     { path: "/students/events", label: "Events" },
     { path: "/students/attractions", label: "Attractions" },
     { path: "/students/emergency", label: "Emergency" },
+    
   ];
 
   const extraLinks = [

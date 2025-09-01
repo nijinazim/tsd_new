@@ -138,8 +138,9 @@ const location = useLocation();
               <h1 className="text-2xl md:text-4xl font-bold mb-4 drop-shadow-lg">
                 Your Student Life, Simplified
               </h1>
-              <p className="max-w-xl text-sm md:text-base text-gray-200 drop-shadow">
-                All-in-one platform for students in the UAE. From finding accommodation to
+              <p className="max-w-3xl text-3xl md:text-base text-gray-100 drop-shadow">
+                All-in-one platform for students in the UAE. </p>
+                <p>From finding accommodation to
                 exploring career opportunities, staying informed, and making the most of your journey.
               </p>
             </div>
